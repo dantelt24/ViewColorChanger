@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ColorView : UIView{
+public class ColorView : UIView{
     let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
     var colorcounter = 0
     
@@ -25,8 +25,7 @@ class ColorView : UIView{
         scheduledColorChanged.fire()  //5
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        // You don't need to implement this
     }
 }
