@@ -1,0 +1,6 @@
+framework module Pods_ViewColorChangerTests {
+  umbrella header "Pods-ViewColorChangerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

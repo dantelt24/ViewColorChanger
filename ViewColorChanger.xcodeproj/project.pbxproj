@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412B61F76F2933A208B9E478 /* Pods_ViewColorChanger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E62899C1D1004E7C20C5768 /* Pods_ViewColorChanger.framework */; };
+		881001C45B2BA31EB47C87DA /* Pods_ViewColorChangerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351DC50E41D675A40C399C3D /* Pods_ViewColorChangerUITests.framework */; };
+		DB89AA0AF2E7C1FC5727B413 /* Pods_ViewColorChangerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B39A8A038E9FC9A5E285A4 /* Pods_ViewColorChangerTests.framework */; };
 		FAFD92711F6F62730037042C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFD92701F6F62730037042C /* AppDelegate.swift */; };
 		FAFD92731F6F62730037042C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFD92721F6F62730037042C /* ViewController.swift */; };
 		FAFD92761F6F62730037042C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFD92741F6F62730037042C /* Main.storyboard */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E62899C1D1004E7C20C5768 /* Pods_ViewColorChanger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewColorChanger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		199F83E504BA6B392D571AE1 /* Pods-ViewColorChanger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewColorChanger.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViewColorChanger/Pods-ViewColorChanger.release.xcconfig"; sourceTree = "<group>"; };
+		32F50D888CA502383F72517F /* Pods-ViewColorChangerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewColorChangerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViewColorChangerTests/Pods-ViewColorChangerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		351DC50E41D675A40C399C3D /* Pods_ViewColorChangerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewColorChangerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4772DE3A02238DF6451626D2 /* Pods-ViewColorChangerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewColorChangerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViewColorChangerUITests/Pods-ViewColorChangerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		70082939652F8AB02ABAD024 /* Pods-ViewColorChanger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewColorChanger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViewColorChanger/Pods-ViewColorChanger.debug.xcconfig"; sourceTree = "<group>"; };
+		ADF377EDD6C13154547F7F41 /* Pods-ViewColorChangerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewColorChangerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViewColorChangerUITests/Pods-ViewColorChangerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBFD757C5DD4376CFB3100C7 /* Pods-ViewColorChangerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewColorChangerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViewColorChangerTests/Pods-ViewColorChangerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4B39A8A038E9FC9A5E285A4 /* Pods_ViewColorChangerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewColorChangerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFD926D1F6F62730037042C /* ViewColorChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewColorChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFD92701F6F62730037042C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFD92721F6F62730037042C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412B61F76F2933A208B9E478 /* Pods_ViewColorChanger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB89AA0AF2E7C1FC5727B413 /* Pods_ViewColorChangerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881001C45B2BA31EB47C87DA /* Pods_ViewColorChangerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B4BA1832D9314B210884EA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E62899C1D1004E7C20C5768 /* Pods_ViewColorChanger.framework */,
+				F4B39A8A038E9FC9A5E285A4 /* Pods_ViewColorChangerTests.framework */,
+				351DC50E41D675A40C399C3D /* Pods_ViewColorChangerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C6A9E36A2DF6EB069C5F654 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70082939652F8AB02ABAD024 /* Pods-ViewColorChanger.debug.xcconfig */,
+				199F83E504BA6B392D571AE1 /* Pods-ViewColorChanger.release.xcconfig */,
+				32F50D888CA502383F72517F /* Pods-ViewColorChangerTests.debug.xcconfig */,
+				BBFD757C5DD4376CFB3100C7 /* Pods-ViewColorChangerTests.release.xcconfig */,
+				ADF377EDD6C13154547F7F41 /* Pods-ViewColorChangerUITests.debug.xcconfig */,
+				4772DE3A02238DF6451626D2 /* Pods-ViewColorChangerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FAFD92641F6F62730037042C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				FAFD92841F6F62730037042C /* ViewColorChangerTests */,
 				FAFD928F1F6F62730037042C /* ViewColorChangerUITests */,
 				FAFD926E1F6F62730037042C /* Products */,
+				5C6A9E36A2DF6EB069C5F654 /* Pods */,
+				3B4BA1832D9314B210884EA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAFD92951F6F62730037042C /* Build configuration list for PBXNativeTarget "ViewColorChanger" */;
 			buildPhases = (
+				D95AA375F043CFEDFCD211CB /* [CP] Check Pods Manifest.lock */,
 				FAFD92691F6F62730037042C /* Sources */,
 				FAFD926A1F6F62730037042C /* Frameworks */,
 				FAFD926B1F6F62730037042C /* Resources */,
+				13362D44F74CD2CB3476E03B /* [CP] Embed Pods Frameworks */,
+				79FFB901C0420EB116B811C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAFD92981F6F62730037042C /* Build configuration list for PBXNativeTarget "ViewColorChangerTests" */;
 			buildPhases = (
+				8517FA2885930C15B350EBD7 /* [CP] Check Pods Manifest.lock */,
 				FAFD927D1F6F62730037042C /* Sources */,
 				FAFD927E1F6F62730037042C /* Frameworks */,
 				FAFD927F1F6F62730037042C /* Resources */,
+				E10DA4AEE84503BD7EFDB420 /* [CP] Embed Pods Frameworks */,
+				DC8CAEB776608519E7DA2E88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAFD929B1F6F62730037042C /* Build configuration list for PBXNativeTarget "ViewColorChangerUITests" */;
 			buildPhases = (
+				6DD6154146BD8224729608C8 /* [CP] Check Pods Manifest.lock */,
 				FAFD92881F6F62730037042C /* Sources */,
 				FAFD92891F6F62730037042C /* Frameworks */,
 				FAFD928A1F6F62730037042C /* Resources */,
+				4F340BBDD2628DF0BA40DB38 /* [CP] Embed Pods Frameworks */,
+				46CA4D14E5558967AB06583F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13362D44F74CD2CB3476E03B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViewColorChanger/Pods-ViewColorChanger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46CA4D14E5558967AB06583F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViewColorChangerUITests/Pods-ViewColorChangerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F340BBDD2628DF0BA40DB38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViewColorChangerUITests/Pods-ViewColorChangerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DD6154146BD8224729608C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViewColorChangerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79FFB901C0420EB116B811C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViewColorChanger/Pods-ViewColorChanger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8517FA2885930C15B350EBD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViewColorChangerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95AA375F043CFEDFCD211CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViewColorChanger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC8CAEB776608519E7DA2E88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViewColorChangerTests/Pods-ViewColorChangerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E10DA4AEE84503BD7EFDB420 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViewColorChangerTests/Pods-ViewColorChangerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAFD92691F6F62730037042C /* Sources */ = {
@@ -416,6 +612,7 @@
 		};
 		FAFD92961F6F62730037042C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70082939652F8AB02ABAD024 /* Pods-ViewColorChanger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ViewColorChanger/Info.plist;
@@ -428,6 +625,7 @@
 		};
 		FAFD92971F6F62730037042C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 199F83E504BA6B392D571AE1 /* Pods-ViewColorChanger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ViewColorChanger/Info.plist;
@@ -440,6 +638,7 @@
 		};
 		FAFD92991F6F62730037042C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F50D888CA502383F72517F /* Pods-ViewColorChangerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +653,7 @@
 		};
 		FAFD929A1F6F62730037042C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFD757C5DD4376CFB3100C7 /* Pods-ViewColorChangerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +668,7 @@
 		};
 		FAFD929C1F6F62730037042C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADF377EDD6C13154547F7F41 /* Pods-ViewColorChangerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ViewColorChangerUITests/Info.plist;
@@ -481,6 +682,7 @@
 		};
 		FAFD929D1F6F62730037042C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4772DE3A02238DF6451626D2 /* Pods-ViewColorChangerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ViewColorChangerUITests/Info.plist;
