@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   
   s.name             = 'ViewColorChanger'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Change the colors of your view to make a change to the appearance of your app'
  
   s.description      = <<-DESC
