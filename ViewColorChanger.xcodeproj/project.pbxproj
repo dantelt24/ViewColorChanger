@@ -14,6 +14,7 @@
 		FAFD927B1F6F62730037042C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFD92791F6F62730037042C /* LaunchScreen.storyboard */; };
 		FAFD92861F6F62730037042C /* ViewColorChangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFD92851F6F62730037042C /* ViewColorChangerTests.swift */; };
 		FAFD92911F6F62730037042C /* ViewColorChangerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFD92901F6F62730037042C /* ViewColorChangerUITests.swift */; };
+		FAFD929F1F6F62A20037042C /* ViewColChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFD929E1F6F62A20037042C /* ViewColChanger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FAFD928C1F6F62730037042C /* ViewColorChangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewColorChangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFD92901F6F62730037042C /* ViewColorChangerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewColorChangerUITests.swift; sourceTree = "<group>"; };
 		FAFD92921F6F62730037042C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFD929E1F6F62A20037042C /* ViewColChanger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewColChanger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FAFD92701F6F62730037042C /* AppDelegate.swift */,
 				FAFD92721F6F62730037042C /* ViewController.swift */,
+				FAFD929E1F6F62A20037042C /* ViewColChanger.swift */,
 				FAFD92741F6F62730037042C /* Main.storyboard */,
 				FAFD92771F6F62730037042C /* Assets.xcassets */,
 				FAFD92791F6F62730037042C /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFD929F1F6F62A20037042C /* ViewColChanger.swift in Sources */,
 				FAFD92731F6F62730037042C /* ViewController.swift in Sources */,
 				FAFD92711F6F62730037042C /* AppDelegate.swift in Sources */,
 			);
